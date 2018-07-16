@@ -114,6 +114,11 @@ $(window).ready(function(){
         }
     }
     
+  if(viewport >= 975){
+        $('#navbarDropdown').hover(function(){
+            $('#menu-dropdown1').slideToggle();
+        });
+    }
     
 });
 
